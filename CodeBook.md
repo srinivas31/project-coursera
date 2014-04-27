@@ -1,4 +1,10 @@
-# Codebook for all Variables
+# Codebook
+
+The original combined dataset had 563 variables and 10299 records. The data is then transformed into a tidy set with 68 varibles and 180 records after extracting only the mean and standard deviation variables from the original set using regular expressions. 
+
+
+
+The following are the list of variables in the dataset with its description for each.
 
 * subject - labels all the volunteers from 1 to 30.
 * activity - describes the activity of the subject. Has 6 levels.
@@ -116,9 +122,10 @@
 * fBodyGyroJerkMagmean
 * fBodyGyroJerkMagstd
 
-##### The above variables doesn't have any units.
+##### All the above variables doesn't have any units.
 ##### Grep is used to clean up paranthesis and hyphan in column names.
-##### CamelCase is preserved for names of feature variables for readability.
+##### There were some duplicates in the column names and it was removed using "unique".
+##### CamelCase is preserved for column names of feature variables for readability.
 ##### Some column names with repetitive phrases are replaced by a single word.[ex: BodyBody]
 ##### Total number of variables = 66 features + subject and activity variables.
 
