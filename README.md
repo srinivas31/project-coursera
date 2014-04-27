@@ -1,6 +1,6 @@
 # Tidy Data Project
  
-This readme file contains the working of the script and the overall explanation of the variables for creating a tidy dataset for Human Activity Recognition Using Smartphones project.
+This readme file of the project contains the working of the script and the overall explanation of the variables for creating a tidy dataset for Human Activity Recognition Using Smartphones dataset. Using data cleaning techniques in R and tidy data principles, a tidy data set is created from the original raw training and test data files. The whole process of this preprocessing, cleaning and transformation is documented in this file and a part of it in CodeBook.
 
 ##### For each record in the transformed tidy data set it is provided:
 
@@ -14,7 +14,7 @@ This readme file contains the working of the script and the overall explanation 
 ##### This repository includes the following files:
 
 * README.md - this file.
-* CodeBook.md - contains explanation of the variables.
+* CodeBook.md - contains explanation of the variables and other transformation details.
 * run_analysis.R - working script to create the tidy dataset from the original.
 
 ##### Working of the script run_Analysis.R is explained in the follwing steps.
@@ -27,7 +27,7 @@ This readme file contains the working of the script and the overall explanation 
 
 * Part 5 creates a second, independent tidy data set with the average of each variable for each activity and each subject using melt and dcast functions from the reshape package. 
 
-* Final part involves further development of the tidy data set by removing "-" and "()" from column names. The data set is then exported into a text file through write.table functions.
+* Final part involves further development of the tidy data set by removing "-" and "()" from column names. The data set is then exported into a text file through write.table functions. This data set obeys the tidy data priniciples.
 
 
 
