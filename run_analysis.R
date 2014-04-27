@@ -1,4 +1,3 @@
-
 ## Reads the training set
 df1<-read.table("train/X_train.txt")
 df2<-read.table("train/y_train.txt") 
@@ -12,7 +11,7 @@ df6<-read.table("test/subject_test.txt")
 ## Reads the features file
 features<-read.table("features.txt")
 
-# Names the column as needed
+## Getting the desired column names for variables
 names(df1) <-  features[,2]
 names(df4) <-  features[,2]
 names(df2) <- "Activity"
@@ -21,7 +20,7 @@ names(df3) <-  "Subject"
 names(df6) <-  "Subject"
 
 
-# Coulumn binds all the files for train and test data
+## Coulumn binds all the files for train and test data
 dftrain <- cbind(df1, df2, df3)
 dftest  <- cbind(df4,df5,df6)
 
@@ -70,7 +69,7 @@ names(tidy) <-gsub("ActivityDetail", "activity", names(tidy))
 ## converts capital letters in 1st column to lower case and appends to other column names.
 names(tidy) <-c(tolower(names(tidy)[1]),names(tidy)[2:68])
 
-## Displays sample of 6 rows for accuracy
+## Displays sample of 6 rows for check
 head(tidy)
 
 ## Dimensions of the tidy set
