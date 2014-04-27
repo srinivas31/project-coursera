@@ -17,14 +17,12 @@
 * tBodyAccstdY
 * tBodyAccstdZ
 
-
 * tGravityAccmeanX
 * tGravityAccmeanY
 * tGravityAccmeanZ
 * tGravityAccstdX
 * tGravityAccstdY
 * tGravityAccstdZ
-
 
 * tBodyAccJerkmeanX
 * tBodyAccJerkmeanY
@@ -33,7 +31,6 @@
 * tBodyAccJerkstdY
 * tBodyAccJerkstdZ
  
-
 * tBodyGyromeanX
 * tBodyGyromeanY
 * tBodyGyromeanZ
