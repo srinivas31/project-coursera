@@ -5,39 +5,51 @@
              {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,  STANDING,  LAYING}
 
 
-### The set of variables represent the mean and standard deviation corresponding to axial signals for each  accelerometer and gyroscope readings. 
+#### The set of variables represent the mean and standard deviation readings  from accelerometer and gyroscope corresponding to axial signals along X,Y,Z and based on time and frequency domain.
 
 
+
+##### This set 
 * tBodyAccmeanX
 * tBodyAccmeanY
 * tBodyAccmeanZ
 * tBodyAccstdX
 * tBodyAccstdY
 * tBodyAccstdZ
+
+
 * tGravityAccmeanX
 * tGravityAccmeanY
 * tGravityAccmeanZ
 * tGravityAccstdX
 * tGravityAccstdY
 * tGravityAccstdZ
+
+
 * tBodyAccJerkmeanX
 * tBodyAccJerkmeanY
 * tBodyAccJerkmeanZ
 * tBodyAccJerkstdX
 * tBodyAccJerkstdY
 * tBodyAccJerkstdZ
+ 
+
 * tBodyGyromeanX
 * tBodyGyromeanY
 * tBodyGyromeanZ
 * tBodyGyrostdX
 * tBodyGyrostdY
 * tBodyGyrostdZ
+ 
+
 * tBodyGyroJerkmeanX
 * tBodyGyroJerkmeanY
 * tBodyGyroJerkmeanZ
 * tBodyGyroJerkstdX
 * tBodyGyroJerkstdY
 * tBodyGyroJerkstdZ
+ 
+
 * tBodyAccMagmean
 * tBodyAccMagstd
 * tGravityAccMagmean
@@ -48,24 +60,32 @@
 * tBodyGyroMagstd
 * tBodyGyroJerkMagmean
 * tBodyGyroJerkMagstd
+ 
+
 * fBodyAccmeanX
 * fBodyAccmeanY
 * fBodyAccmeanZ
 * fBodyAccstdX
 * fBodyAccstdY
 * fBodyAccstdZ
+ 
+
 * fBodyAccJerkmeanX
 * fBodyAccJerkmeanY
 * fBodyAccJerkmeanZ
 * fBodyAccJerkstdX
 * fBodyAccJerkstdY
 * fBodyAccJerkstdZ
+ 
+
 * fBodyGyromeanX
 * fBodyGyromeanY
 * fBodyGyromeanZ
 * fBodyGyrostdX
 * fBodyGyrostdY
 * fBodyGyrostdZ
+ 
+
 * fBodyAccMagmean
 * fBodyAccMagstd
 * fBodyAccJerkMagmean
