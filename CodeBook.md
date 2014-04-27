@@ -8,14 +8,17 @@
 #### The set of variables represent the mean and standard deviation readings  from accelerometer and gyroscope corresponding to axial signals along X,Y,Z and based on time and frequency domain.
 
 
+##### This set of variables correspond to mean and standard deviation values of body accelerometer singals along X, Y and Z based on time.
 
-##### This set 
 * tBodyAccmeanX
 * tBodyAccmeanY
 * tBodyAccmeanZ
 * tBodyAccstdX
-* tBodyAccstdY
+* tBodyAccstdY 
 * tBodyAccstdZ
+
+
+##### This set of variables correspond to mean and standard deviation values of gravity accelerometer singals along X, Y and Z based on time.
 
 * tGravityAccmeanX
 * tGravityAccmeanY
@@ -24,12 +27,18 @@
 * tGravityAccstdY
 * tGravityAccstdZ
 
+##### This set of variables correspond to mean and standard deviation values of body accelerometer jerk singals along X, Y and Z based on time.
+
+
 * tBodyAccJerkmeanX
 * tBodyAccJerkmeanY
 * tBodyAccJerkmeanZ
 * tBodyAccJerkstdX
 * tBodyAccJerkstdY
 * tBodyAccJerkstdZ
+
+##### This set of variables correspond to mean and standard deviation values of gyroscopic body singals along X, Y and Z based on time.
+
  
 * tBodyGyromeanX
 * tBodyGyromeanY
@@ -37,6 +46,8 @@
 * tBodyGyrostdX
 * tBodyGyrostdY
 * tBodyGyrostdZ
+
+##### This set of variables correspond to mean and standard deviation values of gyroscopic body jerk singals along X, Y and Z based on time.
  
 
 * tBodyGyroJerkmeanX
@@ -45,7 +56,9 @@
 * tBodyGyroJerkstdX
 * tBodyGyroJerkstdY
 * tBodyGyroJerkstdZ
- 
+
+##### This set of variables correspond to magnitude of mean and standard deviation values of accelerometer body, gravity and jerk singals along X, Y and Z based on time.
+
 
 * tBodyAccMagmean
 * tBodyAccMagstd
@@ -53,11 +66,17 @@
 * tGravityAccMagstd
 * tBodyAccJerkMagmean
 * tBodyAccJerkMagstd
+
+
+##### This set  of variables correspond to magnitude of mean and standard deviation values of gyroscopic body and jerk  singals along X, Y and Z based on time.
+
 * tBodyGyroMagmean
 * tBodyGyroMagstd
 * tBodyGyroJerkMagmean
 * tBodyGyroJerkMagstd
  
+
+##### This set of variables correspond to mean and standard deviation values of body accelerometer singals along X, Y and Z based on frequecy.
 
 * fBodyAccmeanX
 * fBodyAccmeanY
@@ -65,6 +84,8 @@
 * fBodyAccstdX
 * fBodyAccstdY
 * fBodyAccstdZ
+
+##### This set of variables correspond to mean and standard deviation values of body accelerometer jerk singals along X, Y and Z based on frequecy.
  
 
 * fBodyAccJerkmeanX
@@ -74,6 +95,7 @@
 * fBodyAccJerkstdY
 * fBodyAccJerkstdZ
  
+##### This set of variables correspond to mean and standard deviation values of gyroscopic body singals along X, Y and Z based on frequecy.
 
 * fBodyGyromeanX
 * fBodyGyromeanY
@@ -83,19 +105,24 @@
 * fBodyGyrostdZ
  
 
+##### This set of variables correspond to magnitude of mean and standard deviation values of accelerometer body and jerk singals along X, Y and Z based on frequency.
+
 * fBodyAccMagmean
 * fBodyAccMagstd
 * fBodyAccJerkMagmean
 * fBodyAccJerkMagstd
+ 
+##### This set of variables correspond to magnitude of mean and standard deviation values of gyroscopic body and jerk singals along X, Y and Z based on frequency.
+
 * fBodyGyroMagmean
 * fBodyGyroMagstd
 * fBodyGyroJerkMagmean
 * fBodyGyroJerkMagstd
 
-#### The above variable doesn't have any units.
-#### Grep is used to clean up brackets and special characters in names.
-#### CamelCase is preserved for names of feature variables for readability.
-#### Some column names with repetitive phrases are replaced by a single word.[ex: BodyBody]
-#### Total number of variables = 66 features + 2 id variables.
+##### The above variable doesn't have any units.
+##### Grep is used to clean up brackets and special characters in names.
+##### CamelCase is preserved for names of feature variables for readability.
+##### Some column names with repetitive phrases are replaced by a single word.[ex: BodyBody]
+##### Total number of variables = 66 features + 2 id variables.
 
 
