@@ -1,6 +1,6 @@
 # Codebook for all Variables
 
-* subject - labels the volunteers from 1 to 30.
+* subject - labels all the volunteers from 1 to 30.
 * activity - describes the activity of the subject. Has 6 levels.
              {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,  STANDING,  LAYING}
 
@@ -116,10 +116,10 @@
 * fBodyGyroJerkMagmean
 * fBodyGyroJerkMagstd
 
-##### The above variable doesn't have any units.
-##### Grep is used to clean up brackets and special characters in names.
+##### The above variables doesn't have any units.
+##### Grep is used to clean up paranthesis and hyphan in column names.
 ##### CamelCase is preserved for names of feature variables for readability.
 ##### Some column names with repetitive phrases are replaced by a single word.[ex: BodyBody]
-##### Total number of variables = 66 features + 2 id variables.
+##### Total number of variables = 66 features + subject and activity variables.
 
 
