@@ -15,7 +15,7 @@ This readme file contains the working of the script and the overall explanation 
 
 * README.md - this file.
 * CodeBook.md - contains explanation of the variables.
-* run_Analysis.R - working script to create the tidy dataset from the original.
+* run_analysis.R - working script to create the tidy dataset from the original.
 
 ##### Working of the script run_Analysis.R is explained in the follwing steps.
 
