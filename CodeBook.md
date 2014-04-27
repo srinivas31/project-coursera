@@ -5,9 +5,6 @@
              {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,  STANDING,  LAYING}
 
 
-#### The set of variables represent the mean and standard deviation readings  from accelerometer and gyroscope corresponding to axial signals along X,Y,Z and based on time and frequency domain.
-
-
 ##### This set of variables correspond to mean and standard deviation values of body accelerometer singals along X, Y and Z based on time.
 
 * tBodyAccmeanX
