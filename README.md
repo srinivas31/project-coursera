@@ -13,7 +13,7 @@ This readme file contains the working of the script and the overall explanation 
 
 ##### This repository includes the following files:
 
-* README.md - this file
+* README.md - this file.
 * CodeBook.md - contains explanation of the variables.
 * run_Analysis.R - working script to create the tidy dataset from the original.
 
